@@ -1,7 +1,6 @@
 # Light-green
 
----UPDATE---
-*Detail Fiture*
+**FITUR**
 - Similar color green and clean design
 - Responsive for all device 
 - Using Boostrap v5.4
@@ -19,5 +18,5 @@ fitur next update
 - Hover Button
 - User interaction
 
-If you find ani issue, Dm me on instagram
+If you find any issue, Dm me on instagram
 instagram : @yode_78
