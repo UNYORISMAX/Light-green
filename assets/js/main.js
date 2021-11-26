@@ -47,3 +47,16 @@ var myModal = new bootstrap.Modal(document.getElementById("modal-hero"), {});
 document.onreadystatechange = function () {
 myModal.show();
 };
+
+var mysong = document.getElementById("mysong");
+var icon = document.getElementById("icon");
+
+icon.onclick = function(){
+    if (mysong.paused){
+        mysong.play();
+        icon.src = "assets/img/pause.png";
+    }else{
+        mysong.pause();
+        icon.src = "assets/img/play.png"; 
+    } 
+};
