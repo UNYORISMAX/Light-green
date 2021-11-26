@@ -1,4 +1,4 @@
-music togle
+// music togle
 var mysong = document.getElementById("mysong");
 var icon = document.getElementById("icon");
 
@@ -40,3 +40,10 @@ var x = setInterval(function() {
     document.getElementById("Seconds").innerHTML = "- -";
   }
 }, 1000);
+
+// modal
+var myModal = new bootstrap.Modal(document.getElementById("modal-hero"), {});
+  
+  document.onreadystatechange = function () {
+  myModal.show();
+};
