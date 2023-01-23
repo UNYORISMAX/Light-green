@@ -14,7 +14,7 @@ icon.onclick = function(){
 
 
 // count-down
-var countDownDate = new Date("10 1, 2024 13:54:00").getTime();
+var countDownDate = new Date("2 12, 2023 13:54:00").getTime();
 
 var x = setInterval(function() {
 
@@ -27,10 +27,10 @@ var x = setInterval(function() {
   var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
   var seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
-  document.getElementById("Days").innerHTML = days + "d ";
-  document.getElementById("Hours").innerHTML = hours + "h ";
-  document.getElementById("Minutes").innerHTML = minutes + "m ";
-  document.getElementById("Seconds").innerHTML = seconds + "s ";
+  document.getElementById("Days").innerHTML = days + " d";
+  document.getElementById("Hours").innerHTML = hours + " h";
+  document.getElementById("Minutes").innerHTML = minutes + " m";
+  document.getElementById("Seconds").innerHTML = seconds + " s";
   
   if (distance < 0) {
     clearInterval(x);
