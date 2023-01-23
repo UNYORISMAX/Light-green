@@ -14,7 +14,7 @@ icon.onclick = function(){
 
 
 // count-down
-var countDownDate = new Date("20 10, 2024 13:54:00").getTime();
+var countDownDate = new Date("10 1, 2024 13:54:00").getTime();
 
 var x = setInterval(function() {
 
